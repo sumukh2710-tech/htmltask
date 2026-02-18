@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My First Workspace</title>
+
+  <!-- Meta -->
+  <meta name="description" content="HTML practice workspace covering all major HTML concepts.">
+  <meta name="keywords" content="HTML, Practice, Beginner, Web Development">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+
+<header>
+  <h1>Hello World</h1>
+  <p>Welcome to my HTML Workspace 🚀</p>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#phase1" title="Go to Phase 1">Phase 1</a></li>
+    <li><a href="#phase2">Phase 2</a></li>
+    <li><a href="#phase3">Phase 3</a></li>
+    <li><a href="#phase4">Phase 4</a></li>
+  </ul>
+</nav>
+
+<main>
+
+<!-- ================= PHASE 1 ================= -->
+<section id="phase1">
+  <h2>Phase 1: The Skeleton</h2>
+
+  <h1>Heading 1</h1>
+  <h2>Heading 2</h2>
+  <h3>Heading 3</h3>
+  <h4>Heading 4</h4>
+  <h5>Heading 5</h5>
+  <h6>Heading 6</h6>
+
+  <p>My favorite hobby is <b>coding</b> and <i>learning new technologies</i>.</p>
+
+  <p>
+    HTML uses <strong>strong</strong> and <em>emphasis</em> tags because they add meaning, not just style.
+  </p>
+
+  Line break here <br> Next line
+
+  <hr>
+
+  <p>This word is <mark>highlighted</mark>.</p>
+
+  <p>Chemical Formula: H<sub>2</sub>O</p>
+  <p>Math Expression: x<sup>2</sup></p>
+
+  <p><del>Old text</del> <ins>New text</ins></p>
+
+  <blockquote>
+    "Code is like humor. When you have to explain it, it’s bad."
+    <cite>- Cory House</cite>
+  </blockquote>
+</section>
+
+<!-- ================= PHASE 2 ================= -->
+<section id="phase2">
+  <h2>Phase 2: Linking & Lists</h2>
+
+  <h3>Favorite Foods</h3>
+  <ul>
+    <li>Pizza</li>
+    <li>Biryani</li>
+    <li>Burger</li>
+  </ul>
+
+  <h3>Morning Routine</h3>
+  <ol>
+    <li>Wake up</li>
+    <li>Exercise</li>
+    <li>Study</li>
+  </ol>
+
+  <ol>
+    <li>Project Work
+      <ul>
+        <li>Design</li>
+        <li>Code</li>
+      </ul>
+    </li>
+  </ol>
+
+  <dl>
+    <dt>HTML</dt>
+    <dd>Markup language</dd>
+    <dt>CSS</dt>
+    <dd>Styling language</dd>
+    <dt>JS</dt>
+    <dd>Scripting language</dd>
+  </dl>
+
+  <a href="https://www.google.com" target="_blank">Visit Google</a><br>
+
+  <a href="#footer">Jump to Footer</a><br>
+
+  <a href="mailto:test@example.com">Send Email</a><br>
+  <a href="tel:+911234567890">Call Us</a><br>
+
+  <a href="sample.pdf" download>Download PDF</a>
+
+  <ol type="I" start="10">
+    <li>Ten</li>
+    <li>Eleven</li>
+  </ol>
+</section>
+
+<!-- ================= PHASE 3 ================= -->
+<section id="phase3">
+  <h2>Phase 3: Multimedia & Tables</h2>
+
+  <figure>
+    <img src="https://via.placeholder.com/200" alt="Sample Image" width="200" height="200">
+    <figcaption>Sample Image Caption</figcaption>
+  </figure>
+
+  <table border="1">
+    <caption>Weekly Schedule</caption>
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th>Task</th>
+        <th>Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2">Monday</td>
+        <td>Study</td>
+        <td>6 AM</td>
+      </tr>
+      <tr>
+        <td colspan="2">Practice</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3">End of Schedule</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <iframe width="300" height="200"
+    src="https://www.youtube.com/embed/dQw4w9WgXcQ">
+  </iframe>
+
+  <audio controls>
+    <source src="audio.mp3" type="audio/mpeg">
+  </audio>
+
+  <video controls width="300" poster="https://via.placeholder.com/300">
+    <source src="video.mp4" type="video/mp4">
+  </video>
+
+  <svg width="100" height="100">
+    <circle cx="50" cy="50" r="40" fill="blue"/>
+  </svg>
+</section>
+
+<!-- ================= PHASE 4 ================= -->
+<section id="phase4">
+  <h2>Phase 4: Forms & Input</h2>
+
+  <form>
+    <fieldset>
+      <legend>User Form</legend>
+
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" placeholder="Enter name" required><br>
+
+      <label>Password:</label>
+      <input type="password"><br>
+
+      <label>Email:</label>
+      <input type="email"><br>
+
+      <label>Age:</label>
+      <input type="number" min="18" max="60"><br>
+
+      <label>Range:</label>
+      <input type="range"><br>
+
+      <label>Date:</label>
+      <input type="date"><br>
+
+      <label>Color:</label>
+      <input type="color"><br>
+
+      <label>Upload File:</label>
+      <input type="file"><br>
+
+      <label>Gender:</label>
+      <input type="radio" name="g"> Male
+      <input type="radio" name="g"> Female<br>
+
+      <label>Skills:</label>
+      <input type="checkbox"> HTML
+      <input type="checkbox"> CSS<br>
+
+      <label>Country:</label>
+      <select>
+        <option>India</option>
+        <option>USA</option>
+      </select><br>
+
+      <textarea rows="3"></textarea><br>
+
+      <input type="hidden" value="secret">
+
+      <input type="search" placeholder="Search..."><br>
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </fieldset>
+  </form>
+</section>
+
+<!-- ================= PHASE 5 ================= -->
+<section>
+  <h2>Phase 5: Semantics</h2>
+
+  <article>
+    <h3>Blog Post</h3>
+    <p>This is a blog article.</p>
+    <time datetime="2026-02-14">Feb 14</time>
+  </article>
+
+  <aside>
+    <p>This is a sidebar note.</p>
+  </aside>
+
+  <details>
+    <summary>Click to expand</summary>
+    <p>Hidden content revealed!</p>
+  </details>
+
+  <code>console.log("Hello World");</code>
+
+  <address>
+    Contact: test@example.com
+  </address>
+</section>
+
+<!-- ================= PHASE 6 ================= -->
+<section>
+  <h2>Phase 6: Final Challenges</h2>
+
+  <article>
+    <h3>Resume</h3>
+    <ul>
+      <li>Name: John Doe</li>
+      <li>Skills: HTML, CSS</li>
+    </ul>
+  </article>
+
+  <article>
+    <h3>Restaurant Menu</h3>
+    <dl>
+      <dt>Pizza</dt>
+      <dd>₹250</dd>
+    </dl>
+  </article>
+
+  <table border="1">
+    <tr>
+      <td><img src="https://via.placeholder.com/100"></td>
+      <td><img src="https://via.placeholder.com/100"></td>
+      <td><img src="https://via.placeholder.com/100"></td>
+    </tr>
+  </table>
+</section>
+
+</main>
+
+<footer id="footer">
+  <p>&copy; 2026 My Workspace</p>
+</footer>
+
+</body>
+</html>
